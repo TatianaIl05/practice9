@@ -2,8 +2,8 @@ n = int(input())
 count = 0
 
 while n != 0:
-    n = int(input())
-    if n % 4 == 0:
+    if n > 2 and n % 2 == 0:
         count += 1
+    n = int(input())
 
-print(count - 1)
+print(count)
